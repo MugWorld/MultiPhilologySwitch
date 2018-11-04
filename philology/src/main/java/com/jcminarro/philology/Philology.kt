@@ -26,7 +26,7 @@ object Philology {
         this.viewTransformerFactory = viewTransformerFactory
         repositoryMap.clear()
     }
-
+    @JvmStatic
     fun wrap(baseContext: Context): ContextWrapper = PhilologyContextWrapper(baseContext)
 
     internal fun getPhilologyRepository(locale: Locale): PhilologyRepository =

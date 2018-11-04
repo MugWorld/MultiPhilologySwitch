@@ -1,4 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Philology Sample</string>
-    <string name="label">It is the default value that we have into our strings resoureces file</string>
+
+    <string name="app_name">切换语言demo</string>
+    <string name="hello_world">默认hello_world</string>
+    <string name="switch_language">默认sitch_language</string>
+    <string name="english">英语</string>
+    <string name="chinese">中文</string>
+    <string name="jump">默认jump</string>
+
 </resources>
